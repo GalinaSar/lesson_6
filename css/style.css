@@ -1,0 +1,190 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+body{
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: darkolivegreen;
+    text-shadow: 3px 3px 5px rgb(47, 49, 31);
+}
+header p{
+    font-weight: 700;
+    display: inline-block;
+    color: blue;
+    padding: 10px;
+    border: 5px solid rgb(170, 209, 26);
+    border-radius: 0 15px 0 5px;
+    margin: 0 10px 20px 0;    
+}
+header {
+   text-align: center;
+   }
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: brown;
+    border: 20px;
+    text-shadow: 5px 10px 5px blueviolet;
+    margin-bottom: 15px;
+}
+.text {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    line-height: 1.2;
+    color: rgb(240, 155, 124);
+    border: 5px dashed rgb(94, 155, 24);
+    border-radius: 20px 20px 0 0;
+    box-shadow: 10px 10px 20px 15px gold;
+    margin: 0 0 20px 0;
+}
+.text span {
+    color: red;
+}
+ul {
+    font-family: 'Cormorant Garamond', serif;
+    color: darkcyan;
+    border: 15px solid red;
+    max-width: 800px;
+    margin: 0 auto 30px ;
+    font-size: 25px;
+}
+.item_1 {
+    font-family: 'Amatic SC', cursive;
+    color: rgb(54, 182, 28);
+    font-size: 30px;
+    margin-bottom: 30px;
+    outline: 5px dotted rgb(56, 49, 148);
+    padding: 5px;
+    text-align: center;
+}
+.item_2 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: darkturquoise;
+    max-width: 500px;
+    margin: 0 0 20px auto;
+    border: 5px double darkgreen;
+    font-weight: 600;
+}
+.item_3 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    color: deeppink;
+    border: 10px dashed rgb(179, 169, 41);
+    border-radius: 30px;
+    padding: 0 30px;
+}
+.item_4,
+.item_5 {
+    font-family: 'Marck Script', cursive;
+    color: brown;
+    text-transform: uppercase;
+    max-width: 50%;
+    text-align: justify;
+    outline: 2px solid rgb(96, 126, 192);
+}
+.item_4 {
+    margin: 0 0 20px auto ;
+}
+.item_5 {
+    margin: auto 0 20px 0;
+}
+
+.item_6 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 10px solid red;
+    border-left:10px solid red;
+    max-width: 400px;
+    box-shadow: 50px 10px 10px 5px rgb(79, 163, 189);
+}
+.imeg_1 {
+    outline: 20px dotted rgb(102, 28, 151);
+    margin-bottom: 25px;
+    text-align: center;
+}
+.text_2 {
+    color: blue;
+    text-align: center;
+    text-decoration: line-through;
+    text-shadow: -5px -5px 10px rgb(12, 219, 22);
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+h5 {
+    color: rgb(22, 119, 119);
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 2px 1px rgb(221, 105, 27);
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-family: 'Balsamiq Sans', cursive;
+
+}
+.methods {
+    font-family: 'Comforter', cursive;
+    font-size: 35px;
+    color: hotpink;
+    max-height: 300px;
+    max-width: 80%;
+    overflow: auto;
+    border: 10px solid red;
+    margin-bottom: 20px;
+}
+.imeg_2{
+    outline: 5px dotted rgb(35, 187, 207);
+    max-width: 300px;
+    margin: 0 0 20px auto ;
+}
+.weets {
+    font-family: 'Kelly Slab', cursive;
+    color: darksalmon;
+    border: 5px dotted rgb(82, 206, 58);
+    text-shadow: none;
+    text-transform: capitalize;
+    font-size: 30px;
+    max-height: 300px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    overflow: auto;
+    text-align: justify;
+    padding: 15px;
+}
+.end {
+    font-family: 'Reggae One', cursive;
+    font-size: 30px;
+    color: rgb(150, 65, 16);
+    text-shadow: none;
+    word-spacing: 50px;
+    overflow: hidden;
+    max-height: 110px;
+    margin-bottom: 20px;
+}
+footer {
+    font-size: 50px;
+    color: aqua;
+    text-decoration: overline;
+    text-align: right;
+}
+
